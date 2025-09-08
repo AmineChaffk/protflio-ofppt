@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-slate-900">
+    <header class="bg-slate-800 fixed" id="header">
+        <i class="fa-solid fa-circle-xmark text-blue-400 text-3xl x" id="x"></i>
+        <nav class="flex flex-col gap-2.5 pt-24">
+            <a href="index.html" class="px-9 py-3 bg-state-800 rounded-lg hover:bg-blue-500"></i><i class="fa-solid fa-house text-blue-400 mr-2.5"></i>Home</a>
+            <a href="projects.html" class="px-9 py-3 bg-state-800 rounded-lg hover:bg-blue-500"><i class="fa-solid fa-briefcase text-blue-400 mr-2.5"></i>Projects</a>
+            <a href="about.html" class="px-9 py-3 bg-blue-500 rounded-lg hover:bg-blue-500"><i class="fa-solid fa-address-card text-blue-400 mr-2.5"></i>About</a>
+            <a href="skills.html" class="px-9 py-3 bg-state-800 rounded-lg hover:bg-blue-500"><i class="fa-solid fa-sliders text-blue-400 mr-2.5"></i></i>Skills</a>
+            <a href="service.html" class="px-9 py-3 bg-state-800 rounded-lg hover:bg-blue-500"><i class="fa-solid fa-file-invoice-dollar text-blue-400 mr-2.5"></i>Service</a>
+        </nav>
+    </header>
+    <section class="bg-slate-900 flex about">
+        <i class="fa-solid fa-bars text-blue-400 font-bold text-3xl button" id="button"></i>
+        <div class="flex py-32 gap-24 about-out">
+            <div class="py-7 text">
+                <h2 class="text pb-5 text-5xl font-bold text-blue-500">About Me</h2>
+                <p class="font-light text ">
+                    I'm Amine an 18-year-old web developer from Morocco<br>
+                    I specialize in building modern and responsive web<br>
+                    pages clean code and user-friendly designs to ensure<br>
+                    a great experience for every visitor.I'm here to provide<br>
+                    professional and reliable service Iam currently a student<br>
+                    at ofppt and l am seeking to develop myserlf in the field<br> 
+                </p>
+            </div>
+            <div class="img image-container" style="width: 200px;height: 300px;">
+                <img src="img/photo.jpeg" class="img">
+                <div class="image-over">
+                    <h3>Technical toots</h3>
+                    <p>the tools used on the site are tailwind css and JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <script>
+        document.getElementById("button").addEventListener("click", function(){
+            document.getElementById("header").style.display = "block";
+        })
+        document.getElementById("x").addEventListener("click", function(){
+            document.getElementById("header").style.display = "none";
+        })
+    </script>
+</body>
+</html>
