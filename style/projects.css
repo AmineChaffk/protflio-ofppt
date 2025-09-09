@@ -8,10 +8,13 @@ header{
     width: 30%;
     height: 100%;
 }
-.x{
+#x{
     position: relative;
     left: 85%;
     top: 10%;
+}
+#button{
+    display: none;
 }
 .project{
     width: 70%;
@@ -48,6 +51,12 @@ header{
         width: 300px;
         margin: 0 auto 20px auto;
         height: 550px;
+    }
+    #x{
+        display: block;
+    }
+    #button{
+        display: block;
     }
 }
 @media (min-width:600px) and (max-width: 900px) {

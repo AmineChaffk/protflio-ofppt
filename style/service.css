@@ -133,10 +133,10 @@ body {
     margin-right: auto;
 }
 #x{
-    color: #2c73df;
     position: relative;
     left: 80%;
     top: 10%;
+    display: none;
 }
 .container {
     display: grid;
@@ -149,7 +149,6 @@ body {
     .header{
         position: absolute;
         width: 100%;
-        
         z-index: 10;
     }
     .service{

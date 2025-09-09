@@ -13,12 +13,13 @@ header{
     display: none;
     top: 10%;
 }
+#button{
+    display: none;
+}
 .about{
     width: 70%;
     height: 100vh;
-    padding: 20px;
-    padding-left: auto;
-    padding-right: auto;
+    padding: 20px 100px;
     margin-left: 30%;
 }
 .text, .img{
