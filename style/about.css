@@ -153,11 +153,12 @@ header{
     #x{
         display: block;
     }
-    .button{
+    #button{
         margin-left: auto;
         margin-right: auto;
         position: relative;
         top: 60px;
+        display: block;
     }
     .about{
         width: 100%;
